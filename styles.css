@@ -205,13 +205,22 @@
       height: 100%; 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
-      background-position: ;
+      background-position: center ;
       background-repeat: no-repeat;
       background-size: 100% 100%;
     }
   }
 
   @media only screen and (max-width: 786px){
+    .parallax { 
+      /* Full height */
+      height: 100%; 
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center ;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
     .two-column {
       flex-direction:column;
     }
@@ -232,6 +241,15 @@
   }
 
   @media only screen and (max-width: 1024px){
+    .parallax { 
+      /* Full height */
+      height: 100%; 
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
     .two-column {
       flex-direction:column;
     }
