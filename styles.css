@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Titan+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Assistant&display=swap');
+
+
+    /*universal styles*/
+ body, html {
+    height: 100%;
+    margin: 0;
+    font-family: 'Assistant', sans-serif;
+    font-size: 1.2em;
+    color: #004643;
+    font-weight: 500;
+  }
+
+  .parallax { 
+    /* Full height */
+    height: 100%; 
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  /*styling the info sections*/
+  main, section {
+    background-color:  #faf5d9; 
+    border-bottom: 3px solid #bd8ac2;
+    
+  }
+
+  main{
+    padding-top: 50px; 
+    text-align: center;
+    padding: 5%;
+  }
+
+  /*flex layout*/
+  .two-column {
+    display:flex;
+    flex-direction:row;
+    
+  }
+
+  .two-column div{
+    flex: 1;
+    display:flex;
+   justify-content:center;
+   align-items:center;
+  }
+
+  
+ 
+
+
+  
+  /*Landing page styles*/
+  h1 {
+    margin: 0;
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    font-size: 4em;
+    color: #bd8ac2;
+  }
+
+  h2{
+    margin: 0;
+    font-family: 'Titan One', cursive;
+    text-align: center;
+    padding-top: 100px;
+    font-size: 2em;
+    color: #bd8ac2;
+  }
+
+  span{
+    margin-bottom: 10%;
+  }
+
+  nav{
+    font-family: 'Titan One', cursive;
+    
+  }
+
+  nav ul{
+    list-style-type: none;
+    margin-top: 50%;
+    font-size: larger;
+ 
+  }
+
+
+  li a{
+    color: #004643;
+    font-weight: bold;
+    font-size: 2em;
+    text-decoration: none;
+  }
+
+  li a:hover{
+    color:  #86628a;
+    text-decoration: line-through;
+  }
+  
+
+  /*about section*/
+
+  #certificationList{
+    list-style-type: none;
+  }
+
+
+  /*projects menu*/
+#projects{
+  padding: 10% 2%;
+  border-bottom: 3px solid #bd8ac2;
+    border-top: 3px solid #bd8ac2;
+}
+
+  /*projects*/
+  .project{
+    padding: 10% 2%;
+    border-bottom: 3px solid #bd8ac2;
+    border-top: 3px solid #bd8ac2;
+  }
+
+  /*Contact Form*/
+  form{
+    display: flex;
+    flex-direction: column;
+    margin-left: 10%;
+  }
+
+  input{
+    width: 20%;
+  }
+
+  textarea{
+    width: 40%;
+  }
+
+  input[type=submit]{
+    margin-top: 2%;
+  }
+ 
+
+
+
+    /*background filler images for each section*/
+    .img1 {
+      background-image: url(images/landingbackground.png);
+     
+     
+    }
+    
+    .img2 { 
+      background-image: url(images/filler1.png);  
+     
+    }
+  
+    .img3{
+      background-image: url(images/filler2.png);
+    }
+  
+    .img4{
+      background-image: url(images/filler3.png);
+    }
+  
+    .img5{
+      background-image: url(images/filler4.png);
+    }
+  
+    .img6{
+      background-image: url(images/filler5.png);
+    }
+  
+    .img7{
+      background-image: url(images/filler1.png);
+    }
+  
+    .img8{
+      background-image: url(images/filler2.png);
+    }
+  
+    .img9{
+      background-image: url(images/filler3.png);
+    }
+  
+    .footer{
+      background-image: url(images/footerbackgroun.png);
+    }
+
+  /*media Queries*/
+  @media only screen and (max-width: 600px) {
+    .two-column {
+      flex-direction:column;
+    }
+
+    #navbar{
+      margin-top: 20px;
+    }
+
+    .parallax { 
+      /* Full height */
+      height: 100%; 
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: ;
+      background-repeat: no-repeat;
+      background-size: 100% 100%;
+    }
+  }
+
+  
+
+ 
+
+ 
+  
+
+
+
+
+
