@@ -132,6 +132,7 @@
 
   input{
     width: 20%;
+   
   }
 
   textarea{
@@ -190,7 +191,7 @@
     }
 
   /*media Queries*/
-  @media only screen and (max-width: 600px) {
+  @media only screen and (max-width: 480px) {
     .two-column {
       flex-direction:column;
     }
@@ -209,6 +210,47 @@
       background-size: 100% 100%;
     }
   }
+
+  @media only screen and (max-width: 786px){
+    .two-column {
+      flex-direction:column;
+    }
+    form{
+      margin: 0 5%;
+    }
+    
+  input{
+    width: 100%;
+   
+  }
+
+  textarea{
+    width: 100%;
+  }
+
+
+  }
+
+  @media only screen and (max-width: 1024px){
+    .two-column {
+      flex-direction:column;
+    }
+
+    form{
+      margin: 0 5%;
+    }
+    input{
+      width: 80%;
+     
+    }
+  
+    textarea{
+      width: 80%;
+    }
+  }
+  
+  
+  
 
   
 
