@@ -116,11 +116,30 @@
     border-top: 3px solid #bd8ac2;
 }
 
+#projects h3{
+  font-size: 2em;
+}
+
+#projectsMenu {
+  list-style-type: none;
+  
+}
+
+#projectsMenu li a{
+  font-size: 1.5em;
+}
+
+
   /*projects*/
   .project{
     padding: 10% 2%;
     border-bottom: 3px solid #bd8ac2;
     border-top: 3px solid #bd8ac2;
+  }
+
+  .project img{
+    margin-right: 5%;
+    border-radius: 9px;
   }
 
   /*Contact Form*/
