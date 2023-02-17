@@ -7,7 +7,6 @@
     height: 100%;
     margin: 0;
     font-family: 'Assistant', sans-serif;
-    font-size: 1.2em;
     color: #004643;
     font-weight: 500;
   }
@@ -59,7 +58,7 @@
     margin: 0;
     font-family: 'Titan One', cursive;
     text-align: center;
-    font-size: 4em;
+    font-size: 5rem;
     color: #bd8ac2;
   }
 
@@ -68,13 +67,14 @@
     font-family: 'Titan One', cursive;
     text-align: center;
     padding-top: 100px;
-    font-size: 2em;
+    font-size: 2rem;
     color: #bd8ac2;
   }
 
   span{
     margin-bottom: 10%;
     margin-left: 2%;
+    font-size: 1.5rem;
   }
 
   nav{
@@ -84,16 +84,14 @@
 
   nav ul{
     list-style-type: none;
-    margin-top: 10%;
-    font-size: larger;
- 
+    margin-top: 5%;
   }
 
 
-  li a{
+   li a{
     color: #004643;
     font-weight: bold;
-    font-size: 2em;
+    font-size: 3rem;
     text-decoration: none;
   }
 
@@ -125,11 +123,11 @@
 #projectsMenu {
   padding: 5% 0;
   list-style-type: none;
-  
+ 
 }
 
 #projectsMenu li a{
-  font-size: 1.5em;
+  
 }
 
 
