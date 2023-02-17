@@ -74,6 +74,7 @@
 
   span{
     margin-bottom: 10%;
+    margin-left: 2%;
   }
 
   nav{
@@ -83,7 +84,7 @@
 
   nav ul{
     list-style-type: none;
-    margin-top: 50%;
+    margin-top: 10%;
     font-size: larger;
  
   }
@@ -111,9 +112,10 @@
 
   /*projects menu*/
 #projects{
-  padding: 10% 2%;
+  padding: 10% auto;
   border-bottom: 3px solid #bd8ac2;
     border-top: 3px solid #bd8ac2;
+    text-align: center;
 }
 
 #projects h3{
@@ -121,6 +123,7 @@
 }
 
 #projectsMenu {
+  padding: 5% 0;
   list-style-type: none;
   
 }
@@ -138,7 +141,7 @@
   }
 
   .project img{
-    margin-right: 5%;
+    max-width: 100%;
     border-radius: 9px;
   }
 
@@ -210,7 +213,10 @@
     }
 
   /*media Queries*/
-  @media only screen and (max-width: 480px) {
+  @media only screen and (max-width: 350px) {
+    span{
+      margin-top: 2%;
+    }
     .two-column {
       flex-direction:column;
     }
