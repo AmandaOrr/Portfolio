@@ -219,10 +219,16 @@
     }
     .two-column {
       flex-direction:column;
+      text-align: center;
     }
 
     #navbar{
-      margin-top: 20px;
+      margin-top:20px;
+      
+    }
+
+    navbar li a{
+      padding: 0 2%;
     }
 
     .parallax { 
