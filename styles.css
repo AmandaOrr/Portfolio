@@ -107,6 +107,17 @@
     list-style-type: none;
   }
 
+  /*socials list */
+  #socialIcons{
+    list-style-type: none;
+    display: flex;
+  }
+
+  #socialIcons li{
+    margin: 0 auto;
+    padding: 0 .2rem;;
+  }
+
 
   /*projects menu*/
 #projects{
@@ -126,9 +137,7 @@
  
 }
 
-#projectsMenu li a{
-  
-}
+
 
 
   /*projects*/
@@ -136,11 +145,27 @@
     padding: 10% 2%;
     border-bottom: 3px solid #bd8ac2;
     border-top: 3px solid #bd8ac2;
+    text-align: center;
+  }
+
+  .project h3{
+    font-weight: 800;
   }
 
   .project img{
     max-width: 100%;
     border-radius: 9px;
+  }
+
+  .project a{
+    color:#004643;
+    font-weight: 600;
+    text-decoration: none;
+  }
+
+  .project a:hover{
+    color:#86628a;
+    text-decoration: line-through;
   }
 
   /*Contact Form*/
