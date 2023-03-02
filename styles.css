@@ -237,7 +237,7 @@
     }
 
   /*media Queries*/
-  @media only screen and (max-width: 350px) {
+  @media only screen and ((min-width: 375px) and (max-width: 450px)) {
     span{
       margin-top: 2%;
     }
@@ -257,67 +257,39 @@
 
     .parallax { 
       /* Full height */
-      height: 100%; 
+      max-height: 100%; 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center ;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color:#f8eca6;
+      background-color:#f1e394;
     }
 
-     /*size adjustments to background images*/
-     .img1 {
-      background-image: url(images/landingbackgroundsm.png);
-     
-     
-    }
-    
-    .img2 { 
-      background-image: url(images/filler1sm.png);  
-     
-    }
+        /*background filler images for each section*/
+        .img1 {
+          background-color:#f1e394;
+         background-image:url(images/landingbackgroundsm.png);
+         
+        }
+        
+        .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 { 
+          background-color:#f1e394; 
+         background-image: none;
+        }
   
-    .img3{
-      background-image: url(images/filler2sm.png);
-    }
-  
-    .img4{
-      background-image: url(images/filler3sm.png);
-    }
-  
-    .img5{
-      background-image: url(images/filler4sm.png);
-    }
-  
-    .img6{
-      background-image: url(images/filler5sm.png);
-    }
-  
-    .img7{
-      background-image: url(images/filler1sm.png);
-    }
-  
-    .img8{
-      background-image: url(images/filler2sm.png);
-    }
-  
-    .img9{
-      background-image: url(images/filler3sm.png);
-    }
-  
-    .footer{
-      background-image: url(images/footerbackgrounsm.png);
-    }
-
-
+        .footer{
+            background-color: #faf5d9;
+            background-image: none;
+          }
+      
 
   }
 
   @media only screen and (max-width: 786px){
     .parallax { 
       /* Full height */
-      height: 100%; 
+      max-height: 100%; 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center ;
@@ -347,7 +319,7 @@
   @media only screen and (max-width: 1024px){
     .parallax { 
       /* Full height */
-      height: 100%; 
+      max-width: 100%; 
       /* Create the parallax scrolling effect */
       background-attachment: fixed;
       background-position: center;
