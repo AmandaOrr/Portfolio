@@ -265,6 +265,49 @@
       background-size: 100% 100%;
     }
 
+         /*size adjustments to background images*/
+         .img1 {
+          background-image: url(images/landingbackgroundsm.png);
+         
+         
+        }
+        
+        .img2 { 
+          background-image: url(images/filler1sm.png);  
+         
+        }
+      
+        .img3{
+          background-image: url(images/filler2sm.png);
+        }
+      
+        .img4{
+          background-image: url(images/filler3sm.png);
+        }
+      
+        .img5{
+          background-image: url(images/filler4sm.png);
+        }
+      
+        .img6{
+          background-image: url(images/filler5sm.png);
+        }
+      
+        .img7{
+          background-image: url(images/filler1sm.png);
+        }
+      
+        .img8{
+          background-image: url(images/filler2sm.png);
+        }
+      
+        .img9{
+          background-image: url(images/filler3sm.png);
+        }
+      
+        .footer{
+          background-image: url(images/footerbackgrounsm.png);
+        }
 
   }
 
