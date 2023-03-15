@@ -71,6 +71,11 @@
     color: #bd8ac2;
   }
 
+  h4{
+    font-size: 28px;
+    text-decoration: underline;
+  }
+
   span{
     margin-bottom: 10%;
     margin-left: 2%;
@@ -124,8 +129,8 @@
 #projects{
   padding: 10% auto;
   border-bottom: 3px solid #bd8ac2;
-    border-top: 3px solid #bd8ac2;
-    text-align: center;
+  border-top: 3px solid #bd8ac2;
+  text-align: center;
 }
 
 #projects h3{
@@ -159,15 +164,25 @@
   }
 
   .project a{
-    color:#004643;
-    font-weight: 600;
+    color:#f1e394;
+    background-color: #004643;opacity: .7;
+    padding: 4px 8px;
+    font-weight: 500;
     text-decoration: none;
+    border-radius: 10px;
+    box-shadow: -5px 6px 15px -8px rgba(0,0,0,0.75);
   }
 
   .project a:hover{
     color:#86628a;
     text-decoration: line-through;
   }
+
+  .cTA{
+    font-weight: 500;
+  }
+
+
 
   /*Contact Form*/
   form{
@@ -237,7 +252,11 @@
     }
 
   /*media Queries*/
-  @media only screen and ((min-width: 375px) and (max-width: 450px)) {
+  @media only screen and ((min-width: 360px) and (max-width: 780px)) {
+    p, #certificationList, h4{
+      text-align: left;
+    }
+    
     span{
       margin-top: 2%;
     }
@@ -251,9 +270,21 @@
       
     }
 
-    navbar li a{
+    #navbar li a{
       padding: 0 2%;
     }
+
+    #projectsMenu li a{
+      margin-top: 2%;
+      font-size: 1.65rem;
+      padding: 5% 0;
+    }
+
+    .footer{
+      background-color: #faf5d9;
+      background-image: url(images/footerbackgrounsm.png);
+      background-size: contain;
+      }
 
     .parallax { 
       /* Full height */
@@ -263,30 +294,28 @@
       background-position: center ;
       background-repeat: no-repeat;
       background-size: cover;
-      background-color:#f1e394;
+      background-image: url(images/filler1sm.png);
     }
 
-        /*background filler images for each section*/
-        .img1 {
-          background-color:#f1e394;
-         background-image:url(images/landingbackgroundsm.png);
+    /*background filler images for each section*/
+    .img1 {
+        background-color:#f1e394;
+        background-image:url(images/landingbackgroundsm.png);
+        background-size: contain;
          
-        }
+      }
         
-        .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9 { 
-          background-color:#f1e394; 
-         background-image: none;
-        }
+        
   
-        .footer{
-            background-color: #faf5d9;
-            background-image: none;
-          }
+    
       
 
   }
 
   @media only screen and (max-width: 786px){
+    p, #certificationList, h4{
+      text-align: left;
+    }
     .parallax { 
       /* Full height */
       max-height: 100%; 
@@ -317,6 +346,9 @@
   }
 
   @media only screen and (max-width: 1024px){
+    p, #certificationList, h4{
+      text-align: left;
+    }
     .parallax { 
       /* Full height */
       max-width: 100%; 
